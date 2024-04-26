@@ -7,6 +7,8 @@
   <!-- Font-Awesome-Cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Main-Css -->
+  <link rel="stylesheet" href="style.css">
   <title>Landing Page</title>
 </head>
 <body>
@@ -19,14 +21,14 @@
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
         <a href="#"><i class="fa-brands fa-youtube"></i></a>
         <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="border-right"><i class="fa-brands fa-linkedin-in"></i></a>
       </div>
 
-      <div class="contact">
+      <div class="nav-contact">
         <span><i class="fa-solid fa-phone"></i> +12-3456-7890 | <i class="fa-solid fa-envelope"></i> demolanding@gmail.com</span>
       </div>
 
-      <a href="#" class="btn">REQUEST & CONSULT</a>
+      <a href="#" class="btn-bg">REQUEST & CONSULT</a>
     </div>
     
     <div class="lower-navbar">
@@ -37,8 +39,8 @@
 
       <nav class="navbar">
         <a href="#home" class="active"><i class="fa-solid fa-house"></i></a>
-        <a href="#blog">Blog</a>
         <a href="#page">Page</a>
+        <a href="#about">About Us</a>
         <a href="#services">Services</a>
         <a href="#portfolio">Testimonials</a>
         <a href="#contact">Contact</a>
@@ -51,13 +53,17 @@
 
   <!-- Home-Section-Design -->
   <section class="home" id="home">
-    <h3>WE ARE CREATIVE</h3>
-    <h1>CREATIVE DIGITAL AGENCY</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ut asperiores nesciunt hic optio soluta, quasi ratione sit obcaecati esse laudantium illum nostrum iusto veritatis, recusandae aspernatur vitae cupiditate nisi.
-    </p>
-    <a href="#" class="btn">REAM MORE</a>
-    <a href="#" class="btn-bg">REQUEST & CONSULT</a>
+    <img src="./Images/1.jpg" alt="">
+    <div class="home-details">
+      <h3>WE ARE CREATIVE</h3>
+      <h1>CREATIVE DIGITAL AGENCY</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ut asperiores nesciunt hic optio soluta, quasi
+        ratione sit obcaecati esse laudantium illum nostrum iusto veritatis, recusandae aspernatur vitae cupiditate nisi.
+      </p>
+      <a href="#" class="btn">READ MORE</a>
+      <a href="#" class="btn-bg">REQUEST & CONSULT</a>
+    </div>
   </section>
 
   <!-- Page-Section-Design -->
@@ -92,43 +98,79 @@
 
   <!-- About-Section-Design -->
   <section class="about" id="about">
-    <h4 class="heading">ABOUT US</h4>
-    <span class="underline"></span>
-    <h5>15 years, we passionate about achieving bettter results for out clients</h5>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem deserunt harum iusto velit cupiditate nostrum sint in. Corrupti architecto animi dolorum aliquid hic eveniet id voluptatibus culpa, asperiores debitis accusantium excepturi quidem aliquam sit laudantium tempora, sunt aut nostrum. Ad similique vel sequi rerum tempore numquam aperiam temporibus earum.
-    </p>
-    <a href="#" class="btn">READ MORE</a>
+    <img src="./Images/2.jpg" alt="">
+    <div class="about-details">
+      <h4 class="heading">ABOUT US</h4>
+      <h5>15 years, we passionate about achieving bettter results for out clients</h5>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam a deleniti provident aspernatur delectus, doloremque fugit qui odit dicta, totam perspiciatis, neque consequuntur repellendus sed necessitatibus hic placeat voluptatem optio blanditiis magnam voluptas quia quidem? Maxime neque aliquam totam ad culpa in officiis asperiores ea tempore perspiciatis. Deserunt incidunt voluptatum quae qui tenetur fugiat placeat mollitia vel. Dolorum autem dolore vero obcaecati libero aperiam eos, veritatis sed, rerum nesciunt quam nam, assumenda quisquam iusto corporis quo non aspernatur ipsum maiores adipisci ex. Vitae rerum enim maxime facilis labore, repellendus at dolorem rem aliquid amet corrupti minus aut assumenda! Sequi, facilis.
+      </p>
+      <a href="#" class="btn">READ MORE</a>
+    </div>
+    <span><img src="./Images/7.jpg" alt=""></span>
   </section>
 
   <!-- Services-Section-Design -->
   <section class="services" id="services">
+    <img src="./Images/3.jpg" alt="">
     <h4 class="heading">OUR SERVICES</h4>
-    <span class="underline"></span>
+
+    <div class="services-details">
+      <div class="services-container">
+        <a href="#"><img src="./Images/4.jpg" alt=""></a>
+        <div class="services-box">
+          <i class="fa-solid fa-bullhorn"></i>
+          <p class="box">USER EXPERIENCE</p>
+        </div>
+      </div>
     
-    <div class="services-container">
-      <img src="" alt="">
-      <div class="services-box">
-        <i class="fa-solid fa-bullhorn"></i>
-        <p class="box">USER EXPERIENCE</p>
+      <div class="services-container">
+        <a href="#"><img src="./Images/5.jpg" alt=""></a>
+        <div class="services-box">
+          <i class="fa-regular fa-gem"></i>
+          <p class="box">CREATIVE DESIGN</p>
+        </div>
       </div>
-    </div>
-
-    <div class="services-container">
-      <img src="" alt="">
-      <div class="services-box">
-        <i class="fa-regular fa-gem"></i>
-        <p class="box">CREATIVE DESIGN</p>
-      </div>
-    </div>
-
-    <div class="services-container">
-      <img src="" alt="">
-      <div class="services-box">
-        <i class="fa-solid fa-dollar-sign"></i>
-        <p class="box">RETINA READY</p>
+    
+      <div class="services-container">
+        <a href="#"><img src="./Images/6.jpg" alt=""></a>
+        <div class="services-box">
+          <i class="fa-solid fa-dollar-sign"></i>
+          <p class="box">RETINA READY</p>
+        </div>
       </div>
     </div>
   </section>
+
+  <!-- Contact-Section-Design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#" class="contact-details">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+  
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+  
+      <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+
+  <!-- Footer-Section-Design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2024 by @KartikeGupta | All Rights Reserved</p>
+    </div>
+  
+    <div class="footer-iconTop">
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
 </body>
 </html>
