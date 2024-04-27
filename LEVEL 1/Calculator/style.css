@@ -33,53 +33,53 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
-  margin-top: 1rem;
+  font-size: 3vw;
+  margin-top: 1vw;
   text-align: center;
   color: var(--text-color);
   text-decoration: underline;
 }
 
 .container {
-  margin-top: 4rem;
+  margin-top: 2.5vw;
   text-align: center;
 }
 
 .container-box {
   width: 21vw;
   margin: 0 auto;
-  border-radius: 1.5rem;
+  border-radius: 1.5vw;
   background: var(--bg-color);
   border: 1px solid var(--bg-grey);
 }
 
 .input {
   width: 19vw;
-  height: 15vh;
+  height: 7vw;
   border: none;
   resize: none;
-  padding: .6rem;
-  font-size: 2.5rem;
-  margin-top: 1.4rem;
-  border-radius: .9rem;
-  margin-bottom: 1.4rem;
+  padding: .4vw;
+  font-size: 1.7vw;
+  margin-top: 1vw;
+  border-radius: .8vw;
+  margin-bottom: .75vw;
   color: var(--text-color);
   background: var(--bg-light-grey);
 }
 
 .row {
-  padding-bottom: .75rem;
+  padding-bottom: .5vw;
 }
 
 .btn {
-  width: 6rem;
-  height: 6rem;
+  width: 4.4vw;
+  height: 4.4vw;
   cursor: pointer;
-  font-size: 2.3rem;
+  font-size: 1.7vw;
   border-radius: 50%;
   box-sizing: border-box;
   color: var(--text-color);
-  margin: 0 .25rem 0 .25rem;
+  margin: 0 .15vw 0 .15vw;
 }
 
 .btn-ac {
@@ -99,9 +99,9 @@ h1 {
 }
 
 .btn-dot {
-  margin-bottom: .3rem;
+  margin-bottom: .25vw;
 }
 
 .btn-dot i {
-  font-size: .4rem;
+  font-size: .25vw;
 }
