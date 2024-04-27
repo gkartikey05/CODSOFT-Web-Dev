@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Nunito', 'sans-serifs';
+}
+
+:root {
+  --main-color: #000;
+  --text-color: #fff;
+  --bg-blue: #0000ff;
+  --bg-grey: #5e5e5e;
+  --bg-color: #191f36;
+  --bg-green: #008000;
+  --bg-light-grey: #9b9b9b;
+  --bg-light-blue: #394164;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--main-color);
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.container-box {
+  width: 21vw;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+  background: var(--bg-color);
+  border: 1px solid var(--bg-grey);
+}
+
+.input {
+  width: 19vw;
+  height: 15vh;
+  border: none;
+  resize: none;
+  padding: .6rem;
+  font-size: 2.5rem;
+  margin-top: 1.4rem;
+  border-radius: .9rem;
+  margin-bottom: 1.4rem;
+  color: var(--text-color);
+  background: var(--bg-light-grey);
+}
+
+.row {
+  padding-bottom: .75rem;
+}
+
+.btn {
+  width: 6rem;
+  height: 6rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: var(--text-color);
+  margin: 0 .25rem 0 .25rem;
+}
+
+.btn-ac {
+  background: var(--bg-green);
+}
+
+.btn-symbol {
+  background: var(--bg-light-blue);
+}
+
+.btn-equal {
+  background: var(--bg-blue);
+}
+
+.btn-num {
+  background: var(--bg-grey);
+}
+
+.btn-dot {
+  margin-bottom: .3rem;
+}
+
+.btn-dot i {
+  font-size: .4rem;
+}
