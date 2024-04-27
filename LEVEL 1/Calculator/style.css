@@ -59,7 +59,7 @@ h1 {
   border: none;
   resize: none;
   padding: .4vw;
-  font-size: 1.7vw;
+  font-size: 2vw;
   margin-top: 1vw;
   border-radius: .8vw;
   margin-bottom: .75vw;
@@ -100,8 +100,4 @@ h1 {
 
 .btn-dot {
   margin-bottom: .25vw;
-}
-
-.btn-dot i {
-  font-size: .25vw;
 }
